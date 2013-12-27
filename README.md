@@ -35,3 +35,9 @@ need to install an older version using homebrew.
     brew info neo4j
     export NEO4J_HOME=/usr/local/Cellar/neo4j/1.9.4
 
+### Known Issues
+
+In the Gremlin DSL examples, you'll need to initialize the variable start, as reported in Pull Request #1 and #4:
+* https://github.com/sevenweeks/databases/pull/1
+* https://github.com/sevenweeks/databases/pull/4
+
