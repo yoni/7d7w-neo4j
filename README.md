@@ -41,3 +41,13 @@ In the Gremlin DSL examples, you'll need to initialize the variable start, as re
 * https://github.com/sevenweeks/databases/pull/1
 * https://github.com/sevenweeks/databases/pull/4
 
+The Freebase data for the chapter is no longer available as a simple TSV download. I.e. this returns a 404 error:
+
+    wget http://download.freebase.com/datadumps/latest/browse/film/performance.tsv
+
+To work around this, first download an archived Freebase backup (unfortunately, from 2010):
+
+    wget https://archive.org/download/freebase-data-dump-2010-07-16/freebase-datadump-tsv.tar.bz2
+
+
+
